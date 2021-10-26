@@ -12,10 +12,8 @@ import './App.css'
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="showcase">
       <Navbar />
       <Hero />
-      </div>
       <Clients />
       <Footer />
     </BrowserRouter>
