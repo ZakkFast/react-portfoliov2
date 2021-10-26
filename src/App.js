@@ -4,8 +4,10 @@ import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
 // Components
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer';
-import Hero from './components/layout/Hero'
-import Clients from './components/layout/Clients';
+import LandingPage from './components/landingpage/LandingPage'
+// import Hero from './components/layout/Hero'
+// import Clients from './components/layout/Clients';
+import Contact from './components/contact/Contact';
 
 import './App.css'
 
@@ -13,8 +15,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Hero />
-      <Clients />
+      <Switch>
+        <Route component={LandingPage} path='/' exact />
+        <Route component={Contact} path='/contact' exact />
+      </Switch>
       <Footer />
     </BrowserRouter>
   )
