@@ -6,16 +6,16 @@ function Navbar() {
     <nav className="cf">
         <ul className="cf">
             <li>
-                <Link to="index.html">Home</Link>
+                <Link to="/">Home</Link>
              </li>
              <li>
-                 <Link to="projects.html">What I Do</Link>
+                 <Link to="/project">What I Do</Link>
              </li>
              <li>
-                 <Link to="contact.html">Contact</Link>
+                 <Link to="/contact">Contact</Link>
              </li>
          </ul>
-        <Link to="#" id="openup">Zakk Fast</Link>
+        <Link to="/" id="openup">Zakk Fast</Link>
     </nav> 
  </header>
   );
