@@ -11,9 +11,6 @@ function Navbar() {
              <li>
                  <Link to="/project">What I Do</Link>
              </li>
-             <li>
-                 <Link to="/contact">Contact</Link>
-             </li>
          </ul>
         <Link to="/" id="openup">Zakk Fast</Link>
     </nav> 

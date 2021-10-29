@@ -13,6 +13,7 @@ const data = [
     url: 'https://zakkfast.github.io/myTunes/',
     img: myTunesImg,
     repo: 'https://github.com/ZakkFast/myTunes',
+    alt: "",
     id: 1,
   },
   {
@@ -21,6 +22,7 @@ const data = [
     url: 'https://zakkfast.github.io/dnd-5e-resource/',
     img: dndImg,
     repo: 'https://github.com/ZakkFast/dnd-5e-resource',
+    alt: "",
     id: 2,
   },
   {
@@ -29,6 +31,7 @@ const data = [
     url: 'https://github.com/ZakkFast/iWeather',
     img: iWeatherImg,
     repo: 'https://github.com/ZakkFast/iWeather',
+    alt: "",
     id: 3,
   },
   {
@@ -37,6 +40,7 @@ const data = [
     url: 'https://sjrohrxd.github.io/SNEWZ/',
     img: SnewzImg,
     repo: 'https://github.com/SJROHRXD/SNEWZ',
+    alt: "",
     id: 4,
   },
 ];
@@ -53,6 +57,7 @@ export default function Project() {
               url={project.url}
               img={project.img}
               repo={project.repo}
+              alt={project.alt}
               key={project.id}
             />
           ))}

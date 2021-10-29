@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
       <Fragment>
       <div className="hover">
         <figure>
-          <a target="_blank" href={props.url}><img src={props.img} /></a>
+          <a target="_blank" rel="noreferrer" href={props.url}><img src={props.img}  alt={props.alt}/></a>
         </figure>
       </div>
       <div>
