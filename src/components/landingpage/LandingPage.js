@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import Hero from '../layout/Hero'
-import Clients from '../layout/Clients';
+import Hero from './Hero';
+import Clients from './Clients';
 
 function LandingPage () {
     return (
