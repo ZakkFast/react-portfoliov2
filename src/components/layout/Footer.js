@@ -15,7 +15,7 @@ function Footer() {
           <SocialIcon target="_blank" url="https://github.com/ZakkFast" />
           </div>
           <div className="p-03">
-          <SocialIcon target="_blank" url="https://drive.google.com/file/d/1omG7wWL8QHU8tFZekWPmao2lz_2fHIr5/view?usp=sharing" />
+          <SocialIcon target="_blank" url="https://drive.google.com/file/d/1nlh1WurcJaGtrgUKJQx-PdXYJAd2s6wS/view?usp=sharing" />
           </div>
           <div className="p-03">
           <SocialIcon target="_blank" url="mailto:webdev@zakkfast.com" />
